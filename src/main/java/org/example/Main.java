@@ -13,5 +13,7 @@ public class Main {
         driver.get("https://www.makemytrip.com/");
         String currentUrl = driver.getCurrentUrl();
         System.out.println(currentUrl);
+
+
     }
 }
